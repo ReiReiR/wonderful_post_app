@@ -1,0 +1,7 @@
+  articles:
+    create:
+      notice: '記事を作成しました'
+    update:
+      notice: '記事を更新しました'
+    destroy:
+      notice: '記事を削除しました'
