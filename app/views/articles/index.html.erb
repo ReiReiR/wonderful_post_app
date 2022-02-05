@@ -1,13 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Articles</h1>
+<h1><%= t ".Articles" %></h1>
 
-<table>
+<%= link_to '記事作成', new_article_path, class: "btn btn-info" %>
+
+<table class="table">
   <thead>
     <tr>
-      <th>Title</th>
-      <th>Content</th>
-      <th colspan="3"></th>
+      <th scope="col"><%= t ".Title" %></th>
+      <th scope="col"><%= t ".Content" %></th>
     </tr>
   </thead>
 
@@ -27,5 +28,6 @@
 </table>
 
 <br>
+
 
 <%= link_to 'New Article', new_article_path %>

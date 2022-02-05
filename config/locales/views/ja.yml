@@ -1,0 +1,15 @@
+ja:
+  articles:
+    index:
+      Articles: '記事一覧'
+      Title: 'タイトル'
+      Content: '内容'
+    new:
+      New Article: '新規作成'
+      title: 'タイトル'
+      content: '内容'
+    edit:
+      Editing Article: '記事編集'
+    show:
+      Title: 'タイトル'
+      Content: '内容'
