@@ -39,5 +39,17 @@ module WonderfulPostApp
       g.helper false
       g.test_framework false
     end
+
+    class Application < Rails::Application
+    config.time_zone = 'Asia/Tokyo'
+    config.active_record.default_timezone = :local
+
+    #　以下の記述を追記する(設定必須)
+    # デフォルトのlocaleを日本語(:ja)にする
+    config.i18n.default_locale = :ja
+    #　以下の記述を追記する(設定必須)
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
+
+    end
   end
 end

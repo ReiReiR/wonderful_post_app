@@ -1,0 +1,16 @@
+ja:
+  link:
+    Show: '詳細'
+    Edit: '編集'
+    Destroy: '削除'
+    New Article: '新規作成'
+    Back: '戻る'
+  confirm:
+    Are you sure?: '本当によろしいですか？'
+  articles:
+    create:
+      notice: '記事を作成しました'
+    update:
+      notice: '記事を更新しました'
+    destroy:
+      notice: '記事を削除しました'
