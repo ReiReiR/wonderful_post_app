@@ -54,3 +54,4 @@ gem 'rails-i18n'
 
 #認証機能
 gem 'devise'
+gem 'devise-i18n'
